@@ -124,3 +124,15 @@ body {
     transform: translateY(0);
   }
 }
+
+.section {
+  padding: 100px 60px;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #FFFFFF;
+}
+
+.section:nth-of-type(even) {
+  background-color: #F5EFEB;
+}
