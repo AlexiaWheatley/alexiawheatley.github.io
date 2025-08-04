@@ -159,3 +159,13 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 100px 60px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #C8D9E6;
+}
