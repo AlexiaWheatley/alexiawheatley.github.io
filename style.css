@@ -1,25 +1,29 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #fdfdfd;
-    color: #333;
+    background: #F5EFEB;
+    color: #2F4156;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    background: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    border-radius: 12px;
+    max-width: 850px;
+    margin: 30 auto;
+    padding: 40px 30px;
+    background: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    border: 2px solid #CBD9E6;
 }
 
 header {
     text-align: center;
-    border-bottom: 2px solid #a8dadc;
-    padding-bottom: 10px;
+    background: #C8D9E6;
+    padding: 20px;
+    border-radius: 16px;
+    color: #2F4156;
+    margin-bottom: 20px;
 }
 
 header h1 {
