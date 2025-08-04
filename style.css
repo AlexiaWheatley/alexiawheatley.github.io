@@ -76,3 +76,23 @@ footer {
     padding: 10px;
     border-top: 1px solid #C8D9E6;
 }
+
+
+.skill-icons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.skill-icons img {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.2s ease;
+    filter: grayscale(100%) brightness(0.5) sepia(1) hue-rotate(180deg) saturate(300%) contrast(0.8);
+}
+
+.skill-icons img:hover {
+    transform: scale(1.15);
+}
