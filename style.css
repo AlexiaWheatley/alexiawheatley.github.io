@@ -156,6 +156,6 @@ body {
 }
 
 .fade-in-section.visible {
-  opacity: 1;
+  opacity: 0;
   transform: translateY(0);
 }
