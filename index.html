@@ -16,17 +16,31 @@
 
         <section class="about">
             <h2>About Me</h2>
-            <p>Motivated and resourceful young professional with excellent organisational skills, leadership experience, and a passion for learning. Fluent in English and competent in Afrikaans. Known for reliability, attention to detail, and a can-do attitude.</p>
+            <p>Motivated and resourceful professional with excellent organisational skills, leadership experience, and a passion for creating. Fluent in English and competent in Afrikaans. I am reliable and value efficiency as well as a keen eye for detail.</p>
         </section>
 
         <section class="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Driver’s Licence (Valid)</li>
-                <li>Microsoft Office, Google Suite, Canva, Sage</li>
-                <li>Team Support & Admin</li>
-                <li>English (Fluent), Afrikaans (Conversational)</li>
-            </ul>
+               
+.skill-icons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.skill-icons img {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.2s ease;
+    filter: grayscale(100%) brightness(0.5) sepia(1) hue-rotate(180deg) saturate(300%) contrast(0.8);
+}
+
+.skill-icons img:hover {
+    transform: scale(1.15);
+}
         </section>
 
         <section class="experience">
