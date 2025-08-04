@@ -39,12 +39,29 @@ header p {
 
 section {
     margin-top: 30px;
+    padding: 20px;
+    background-color: #C8D9E6;
+    border-radius: 16px;
+    border: 1px solid #567C8D;
 }
 
 h2 {
-    color: #1d3557;
-    border-bottom: 1px solid #e0e0e0;
+    color: #2F4156;
+    border-bottom: 1px solid #567C8D;
     padding-bottom: 5px;
+}
+
+h3 {
+    color: #567C8D;
+}
+
+a {
+    color: #2F4156;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
@@ -54,6 +71,8 @@ ul {
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #999;
+    color: #567C8D;
     font-size: 0.9em;
+    padding: 10px;
+    border-top: 1px solid #C8D9E6;
 }
