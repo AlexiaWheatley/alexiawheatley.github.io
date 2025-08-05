@@ -122,14 +122,6 @@ html {
   right: -20px;
 }
 
-.hero-text {
-  order: 1;
-}
-
-.hero-image-container {
-  order: 2;
-}
-
 /* Fade-in effect */
 .fade-in {
   opacity: 0;
