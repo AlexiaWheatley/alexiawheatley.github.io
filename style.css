@@ -9,7 +9,7 @@ body {
   font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
   background-color: #F5EFEB;
   color: #2F4156;
-  padding-bottom: 80px; /* space for footer */
+  padding-bottom: 40px; /* space for footer */
 }
 
 html {
