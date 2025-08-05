@@ -90,7 +90,6 @@ I’m eager to continue building my skills, take on new challenges, and contribu
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
       }
     });
   }, {
