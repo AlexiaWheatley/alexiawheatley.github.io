@@ -67,7 +67,6 @@ html {
   max-width: 600px;
   padding: 120px 60px 80px 60px;
   box-sizing: border-box;
-  order: 2
 }
 
 .hero-text h1 {
@@ -90,7 +89,6 @@ html {
   width: 350px;
   height: 350px;
   margin: 0;
-  order: 1
 }
 
 .hero-img {
