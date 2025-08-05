@@ -211,7 +211,7 @@ html {
 
 /* Footer End Border */
 .footer-border {
-  position: relative;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
