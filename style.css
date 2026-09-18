@@ -256,3 +256,56 @@ html {
 #contact {
   text-align: center;
 }
+
+/* Section headings (Skills & Competencies, About, etc.) */
+h2 {
+  font-size: 2em;              /* clearly bigger than subheadings */
+  font-weight: 600;
+  color: #2F4156;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+/* Skills list container */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each category block — no bullet */
+.skill-group {
+  list-style: none;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+/* Category subheading (Administrative, Communication, etc.) */
+.skill-heading {
+  display: block;
+  font-size: 1.3em;            /* bigger than body, smaller than h2 */
+  font-weight: 600;
+  color: #2F4156;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.3px;
+}
+
+/* The bulleted points underneath */
+.skill-group ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.skill-group ul li {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #2F4156;
+  margin-bottom: 0.5rem;
+}
+
+/* Bold labels (Office Coordination, etc.) */
+.skill-group ul li strong {
+  font-weight: 600;
+  color: #567C8D;              /* accent for scanability */
+}
