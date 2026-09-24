@@ -26,10 +26,11 @@ html {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
-.navbar .logo {
-  font-size: 1.8em;
-  font-weight: 400;
-  color: #2F4156;
+.navbar .logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .navbar ul {
